@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TABLE - CREATION</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div>
+      <h1 class="heading">Creating Table in HTML</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="3">DAY</th>
+            <th colspan="3">SEMINAR</th>
+          </tr>
+          <tr>
+            <th colspan="2">SCHEDULE</th>
+            <th rowspan="2">TOPIC</th>
+          </tr>
+          <tr>
+            <th>BEGIN</th>
+            <th>END</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2" class="time-yellow">08:00 AM</td>
+            <td rowspan="2" class="time-violet">05:00 PM</td>
+            <td>Introduction to XML</td>
+          </tr>
+          <tr>
+            <td>Validity: DTD and Relax NG</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Tuesday</td>
+            <td class="time-yellow">08:00 AM</td>
+            <td class="time-yellow">11:00 AM</td>
+            <td rowspan="2">XPath</td>
+          </tr>
+          <tr>
+            <td class="time-yellow">11:00 AM</td>
+            <td class="time-greenyellow">02:00 PM</td>
+          </tr>
+          <tr>
+            <td class="time-greenyellow">02:00 PM</td>
+            <td class="time-violet">05:00 PM</td>
+            <td>XSL Transformation</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td class="time-yellow">08:00 AM</td>
+            <td class="time-greenyellow">01:00 PM</td>
+            <td>XSL Formatting Objects</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
